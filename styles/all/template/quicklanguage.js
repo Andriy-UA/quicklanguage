@@ -5,7 +5,7 @@
         $('.lang').each(function () {
             $(this).css('background', 'url("./ext/alg/quicklanguage/styles/all/theme/images/flags/' + $(this).attr('iso') + '.png") no-repeat');
             if ($(this).attr('iso') == S_CURRENT_LANG)
-                $(this).css('cursor', 'default');
+                $(this).css({'opacity':'1', 'cursor':'default'});
             // $(forumtitle).html($(forumtitle).html() + div);
         });
 
