@@ -4,7 +4,12 @@
   height: 16px;
   width: 16px;
   display:inline-block;
+  opacity: 0.6;
 }
+.lang:hover {
+  opacity: 1;
+}
+
 .lang_en {
   background: url("./images/flags/en.png") no-repeat;
 
